@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read reviews and testimonials from parents and students of Curious Minds Academy. Write your own review.">
+    <title>Reviews & Testimonials | Curious Minds Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Header -->
+    <header id="header-nav">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" id="logo-link">
+                <img src="assets/images/logo_icon.png?v=3" alt="Curious Minds Academy Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">Curious Minds Academy</span>
+                    <span class="logo-tagline">NURTURING FUTURE...</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="courses.html" class="nav-link">Courses</a>
+                <a href="facilities.html" class="nav-link">Facilities</a>
+                <a href="results.html" class="nav-link">Achievements</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact Us</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon moon-icon"></i>
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                </button>
+                <a href="admission.html" class="btn btn-primary">Apply Now</a>
+            </div>
+
+            <button class="hamburger" aria-label="Open mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Subpage Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Success Stories</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> / <span>Testimonials</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials List Grid -->
+    <section class="section">
+        <div class="container grid-2">
+            <div class="contact-info-panel reveal">
+                <span class="hero-tag">Student Reviews</span>
+                <h2>What Parents & Students Say</h2>
+                <p>Academic progress is a collaborative journey. Read through our alumni profiles and understand how our structured mentoring system helps students realize their potentials.</p>
+                
+                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                    <!-- Review 1 -->
+                    <div class="card" style="padding: 2rem;">
+                        <div class="testimonial-stars" style="color:var(--accent); margin-bottom: 0.5rem;">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p style="font-size:0.95rem; color:var(--text-secondary); font-style:italic;">"Curious Minds Academy played a huge role in my JEE Advanced preparation. The subject teachers simplified integration and kinematics concepts so well."</p>
+                        <div style="display:flex; align-items:center; gap:0.75rem; margin-top: 1rem;">
+                            <span style="font-weight:700; font-size:0.95rem;">Arjun Sharma</span>
+                            <span style="font-size:0.8rem; color:var(--text-secondary);">- IIT Bombay Student</span>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="card" style="padding: 2rem;">
+                        <div class="testimonial-stars" style="color:var(--accent); margin-bottom: 0.5rem;">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p style="font-size:0.95rem; color:var(--text-secondary); font-style:italic;">"The small batch sizes here were a blessing. Unlike massive centers, teachers here know your name, track your mistakes, and review your reports directly."</p>
+                        <div style="display:flex; align-items:center; gap:0.75rem; margin-top: 1rem;">
+                            <span style="font-weight:700; font-size:0.95rem;">Ananya Gupta</span>
+                            <span style="font-size:0.8rem; color:var(--text-secondary);">- CBSE Class 12 Topper</span>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="card" style="padding: 2rem;">
+                        <div class="testimonial-stars" style="color:var(--accent); margin-bottom: 0.5rem;">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p style="font-size:0.95rem; color:var(--text-secondary); font-style:italic;">"As a parent, I am extremely satisfied with CMA's progress tracking. The performance reports showed detailed trend charts, and parent-teacher meetings were constructive."</p>
+                        <div style="display:flex; align-items:center; gap:0.75rem; margin-top: 1rem;">
+                            <span style="font-weight:700; font-size:0.95rem;">Mrs. Patel</span>
+                            <span style="font-size:0.8rem; color:var(--text-secondary);">- Parent of NEET Qualifier</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review Submission Form -->
+            <div class="contact-form-container reveal reveal-delay-2" style="align-self: flex-start;">
+                <h3 style="margin-bottom: 1.5rem;">Submit Your Experience</h3>
+                <p style="color:var(--text-secondary); font-size:0.9rem; margin-bottom: 1.5rem;">Are you a student or parent at CMA? Share your feedback with us to help other families make informed academic decisions.</p>
+                
+                <form id="review-submit-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="review-name">Your Full Name</label>
+                        <input type="text" class="form-input" id="review-name" required placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="review-role">Your Role / Course</label>
+                        <input type="text" class="form-input" id="review-role" required placeholder="e.g., Parent of Class 10 student / JEE Batch Student">
+                    </div>
+                    <div class="form-group">
+                        <label for="review-rating">Select Star Rating</label>
+                        <select class="form-input" id="review-rating" required>
+                            <option value="5">★★★★★ (5 Stars - Excellent)</option>
+                            <option value="4">★★★★☆ (4 Stars - Very Good)</option>
+                            <option value="3">★★★☆☆ (3 Stars - Good)</option>
+                            <option value="2">★★☆☆☆ (2 Stars - Average)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-text">Testimonial Review</label>
+                        <textarea class="form-input" id="review-text" required placeholder="Describe your experience with classrooms, studies, and mentors..." style="min-height: 100px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Review <i class="fa-solid fa-square-poll-horizontal"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Column Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo" id="logo-footer-link">
+                    <img src="assets/images/logo_icon.png?v=3" alt="Curious Minds Academy Logo" class="logo-img footer-logo-img">
+                    <div class="logo-text">
+                        <span class="logo-title" style="color: #FFFFFF;">Curious Minds Academy</span>
+                        <span class="logo-tagline" style="color: var(--accent);">NURTURING FUTURE...</span>
+                    </div>
+                </a>
+                <p>Curious Minds Academy is a premium educational institute located in Zundal, Ahmedabad, dedicated to grooming students for school boards and entrance tests via robust conceptual methods and expert guidance.</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="index.html">Home</a></li>
+                    <li class="footer-link"><a href="about.html">About Us</a></li>
+                    <li class="footer-link"><a href="courses.html">Our Courses</a></li>
+                    <li class="footer-link"><a href="facilities.html">CMA Facilities</a></li>
+                    <li class="footer-link"><a href="results.html">Result Board</a></li>
+                    <li class="footer-link"><a href="gallery.html">Photo Gallery</a></li>
+                    <li class="footer-link"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Our Courses</h4>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="courses.html">Foundation (6th-10th)</a></li>
+                    <li class="footer-link"><a href="courses.html">CBSE board prep</a></li>
+                    <li class="footer-link"><a href="courses.html">Science Stream Class</a></li>
+                    <li class="footer-link"><a href="courses.html">Commerce Stream Class</a></li>
+                    <li class="footer-link"><a href="courses.html">JEE Mains & Advanced</a></li>
+                    <li class="footer-link"><a href="courses.html">NEET UG Medical</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter to receive the latest updates, academic tips, and announcements.</p>
+                <form class="footer-newsletter-form" id="newsletter-form" action="#" method="POST">
+                    <div class="newsletter-group">
+                        <input type="email" class="newsletter-input" required placeholder="Your email address" aria-label="Newsletter email">
+                        <button type="submit" class="newsletter-btn" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Curious Minds Academy. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button id="scroll-to-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="main.js"></script>
+    <script>
+        // Custom interactive script for testimonials submission
+        const reviewForm = document.getElementById('review-submit-form');
+        if (reviewForm) {
+            reviewForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const name = document.getElementById('review-name').value;
+                const role = document.getElementById('review-role').value;
+                const rating = document.getElementById('review-rating').value;
+                const text = document.getElementById('review-text').value;
+
+                const review = {
+                    id: Date.now(),
+                    name: name,
+                    role: role,
+                    rating: parseInt(rating),
+                    text: text,
+                    date: new Date().toISOString()
+                };
+
+                const db = JSON.parse(localStorage.getItem('cma_reviews') || '[]');
+                db.push(review);
+                localStorage.setItem('cma_reviews', JSON.stringify(db));
+
+                reviewForm.innerHTML = `
+                    <div class="text-center" style="padding: 2rem 0; display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">
+                        <div style="width: 70px; height: 70px; background-color: rgba(16, 185, 129, 0.1); color: #10B981; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.5rem;">✓</div>
+                        <h3 class="text-gradient">Review Submitted!</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Thank you, ${name}. Your review has been saved in our local database for moderation.</p>
+                        <button class="btn btn-primary" onclick="window.location.reload();">Write Another Review</button>
+                    </div>
+                `;
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our specialized programs at Curious Minds Academy: Foundation courses, CBSE/ICSE boards, JEE, NEET, Olympiad, and Personality Development.">
+    <title>Courses We Offer | Curious Minds Academy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation Header -->
+    <header id="header-nav">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" id="logo-link">
+                <img src="assets/images/logo_icon.png?v=3" alt="Curious Minds Academy Logo" class="logo-img">
+                <div class="logo-text">
+                    <span class="logo-title">Curious Minds Academy</span>
+                    <span class="logo-tagline">NURTURING FUTURE...</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="courses.html" class="nav-link">Courses</a>
+                <a href="facilities.html" class="nav-link">Facilities</a>
+                <a href="results.html" class="nav-link">Achievements</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact Us</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon moon-icon"></i>
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                </button>
+                <a href="admission.html" class="btn btn-primary">Apply Now</a>
+            </div>
+
+            <button class="hamburger" aria-label="Open mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Subpage Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Course Catalog</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a> / <span>Courses</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Grid Section with Filters -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="hero-tag">Filter Batches</span>
+                <h2>Choose Your Path to Success</h2>
+                <p>Browse through our specialized batch modules and select the right learning track matching your academic criteria.</p>
+            </div>
+            
+            <!-- Category Filters -->
+            <div class="filters-container courses-filters reveal">
+                <button class="filter-btn active" data-filter="all">All Programs</button>
+                <button class="filter-btn" data-filter="school">School (6th-10th)</button>
+                <button class="filter-btn" data-filter="board">Boards (11th-12th)</button>
+                <button class="filter-btn" data-filter="competitive">Competitive Exams</button>
+                <button class="filter-btn" data-filter="executive">Personality Development</button>
+            </div>
+
+            <div class="grid-3 courses-grid">
+                <!-- Course 1 -->
+                <div class="card course-card reveal" data-category="school">
+                    <div class="course-img">
+                        <img src="assets/images/classroom_highres.jpg" alt="Foundation Course" loading="lazy">
+                        <span class="course-badge">School</span>
+                        <span class="course-duration">1 Year Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>Foundation Courses (6–10)</h3>
+                        <p>Build robust conceptual roots in Physics, Chemistry, Biology, Mathematics, and logical reasoning to excel in school and prepare for future Olympiads.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Mon - Fri Batches</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="card course-card reveal reveal-delay-1" data-category="board">
+                    <div class="course-img">
+                        <img src="assets/images/group_photo.jpg" alt="CBSE Board Exam Prep" loading="lazy">
+                        <span class="course-badge">Board</span>
+                        <span class="course-duration">1 Year Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>CBSE Board Exam Prep</h3>
+                        <p>Complete NCERT-based syllabus completion, weekly chapter assignments, mock tests, and special answer writing drills for high scores in Class 10/12.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Daily Batches</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="card course-card reveal reveal-delay-2" data-category="board">
+                    <div class="course-img">
+                        <img src="assets/images/classroom_highres.jpg" alt="ICSE Board Prep" loading="lazy">
+                        <span class="course-badge">Board</span>
+                        <span class="course-duration">1 Year Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>ICSE Board Prep</h3>
+                        <p>Exhaustive tutoring covering ICSE & ISC curriculums with detailed practical worksheets, English literature guidance, and analytical mock reviews.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Alternate Day Batches</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 4 -->
+                <div class="card course-card reveal" data-category="board">
+                    <div class="course-img">
+                        <img src="assets/images/classroom_highres.jpg" alt="Science Stream Course" loading="lazy">
+                        <span class="course-badge">Board</span>
+                        <span class="course-duration">2 Years Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>Science (PCM / PCB)</h3>
+                        <p>Thorough subject-wise modules for Physics, Chemistry, Mathematics, and Biology targeted specifically for Class 11 & 12 board preparations.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Daily Batches</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 5 -->
+                <div class="card course-card reveal reveal-delay-1" data-category="board">
+                    <div class="course-img">
+                        <img src="assets/images/group_photo.jpg" alt="Commerce Stream Course" loading="lazy">
+                        <span class="course-badge">Board</span>
+                        <span class="course-duration">2 Years Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>Commerce Streams</h3>
+                        <p>Tutoring for Accountancy, Business Studies, Economics, and Applied Math. Special focus on case studies and board model papers completions.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Mon - Sat Batches</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 6 -->
+                <div class="card course-card reveal reveal-delay-2" data-category="competitive">
+                    <div class="course-img">
+                        <img src="assets/images/classroom_highres.jpg" alt="JEE Main & Advanced Course" loading="lazy">
+                        <span class="course-badge">Competitive</span>
+                        <span class="course-duration">2 Years Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>JEE Main & Advanced</h3>
+                        <p>Custom advanced material, shortcuts, chapter test matrices, and numerical solving sessions designed to crack national IIT-JEE entrance tests.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Intensive Daily Batches</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 7 -->
+                <div class="card course-card reveal" data-category="competitive">
+                    <div class="course-img">
+                        <img src="assets/images/classroom_highres.jpg" alt="NEET Coaching Course" loading="lazy">
+                        <span class="course-badge">Competitive</span>
+                        <span class="course-duration">2 Years Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>NEET UG Medical</h3>
+                        <p>High-yield Biology diagram practices, Physics logic calculations, Chemistry organic worksheets, and mock tests based on NMC guidelines.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Intensive Daily Batches</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 8 -->
+                <div class="card course-card reveal reveal-delay-1" data-category="competitive">
+                    <div class="course-img">
+                        <img src="assets/images/classroom_highres.jpg" alt="Olympiad Coaching Course" loading="lazy">
+                        <span class="course-badge">Competitive</span>
+                        <span class="course-duration">1 Year Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>Olympiads & CUET</h3>
+                        <p>Targeted preparations for SOF Olympiads, NTSE, NSEJS, and national college entrance CUET. Builds high-speed mental aptitude.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Weekend Special Batches</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Course 9 -->
+                <div class="card course-card reveal reveal-delay-2" data-category="executive">
+                    <div class="course-img">
+                        <img src="assets/images/classroom_test.jpg" alt="Communication Skills & PD" loading="lazy">
+                        <span class="course-badge">Executive</span>
+                        <span class="course-duration">6 Months Program</span>
+                    </div>
+                    <div class="course-info">
+                        <h3>Personality Development</h3>
+                        <p>Grooming presentation traits, public speaking confidence, group debate drills, and speech projection habits on podium stages.</p>
+                        <div class="course-footer">
+                            <span style="font-size:0.8rem; color:var(--text-secondary); font-weight:600;"><i class="fa-regular fa-clock"></i> Special Bi-weekly Sessions</span>
+                            <button class="btn btn-primary btn-enquire" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Enquire</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multi-Column Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo" id="logo-footer-link">
+                    <img src="assets/images/logo_icon.png?v=3" alt="Curious Minds Academy Logo" class="logo-img footer-logo-img">
+                    <div class="logo-text">
+                        <span class="logo-title" style="color: #FFFFFF;">Curious Minds Academy</span>
+                        <span class="logo-tagline" style="color: var(--accent);">NURTURING FUTURE...</span>
+                    </div>
+                </a>
+                <p>Curious Minds Academy is a premium educational institute located in Zundal, Ahmedabad, dedicated to grooming students for school boards and entrance tests via robust conceptual methods and expert guidance.</p>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="index.html">Home</a></li>
+                    <li class="footer-link"><a href="about.html">About Us</a></li>
+                    <li class="footer-link"><a href="courses.html">Our Courses</a></li>
+                    <li class="footer-link"><a href="facilities.html">CMA Facilities</a></li>
+                    <li class="footer-link"><a href="results.html">Result Board</a></li>
+                    <li class="footer-link"><a href="gallery.html">Photo Gallery</a></li>
+                    <li class="footer-link"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Our Courses</h4>
+                <ul class="footer-links">
+                    <li class="footer-link"><a href="courses.html">Foundation (6th-10th)</a></li>
+                    <li class="footer-link"><a href="courses.html">CBSE board prep</a></li>
+                    <li class="footer-link"><a href="courses.html">Science Stream Class</a></li>
+                    <li class="footer-link"><a href="courses.html">Commerce Stream Class</a></li>
+                    <li class="footer-link"><a href="courses.html">JEE Mains & Advanced</a></li>
+                    <li class="footer-link"><a href="courses.html">NEET UG Medical</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter to receive the latest updates, academic tips, and announcements.</p>
+                <form class="footer-newsletter-form" id="newsletter-form" action="#" method="POST">
+                    <div class="newsletter-group">
+                        <input type="email" class="newsletter-input" required placeholder="Your email address" aria-label="Newsletter email">
+                        <button type="submit" class="newsletter-btn" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Curious Minds Academy. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button id="scroll-to-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Enquire Now Modal overlay -->
+    <div class="modal-overlay" id="enquire-modal">
+        <div class="modal-container">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-header">
+                <h3>Book Free Demo Session</h3>
+                <p>Register for a complimentary demo session. Our admissions counselor will schedule your seat.</p>
+            </div>
+            <form id="enquire-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="enquire-name">Student Full Name</label>
+                    <input type="text" class="form-input" id="enquire-name" required placeholder="Enter student name">
+                </div>
+                <div class="form-group">
+                    <label for="enquire-phone">Mobile Number</label>
+                    <input type="tel" class="form-input" id="enquire-phone" required placeholder="Enter 10-digit number">
+                </div>
+                <div class="form-group">
+                    <label for="enquire-course">Target Course</label>
+                    <select class="form-input" id="enquire-course" required>
+                        <option value="">-- Choose Course --</option>
+                        <option value="Foundation Courses">Foundation Course (Class 6 - 10)</option>
+                        <option value="CBSE Boards Prep">CBSE Board Exam Prep</option>
+                        <option value="JEE Coaching">JEE Mains/Advanced</option>
+                        <option value="NEET Coaching">NEET UG Medical</option>
+                        <option value="Personality Development">Personality Development</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Confirm Demo Slot <i class="fa-solid fa-calendar-check"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
